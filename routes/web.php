@@ -55,3 +55,5 @@ Route::get("/belajar3",[SatuController::class,"test3"]);
 Route::get("/belajar4",[DuaController::class,"test4"]);
 Route::get("/belajar5",[DuaController::class,"test5"]);
 Route::get("/belajar6",[DuaController::class,"test6"]);
+
+Route::get("/tema/bootstrap", [UtamaController::class, "index"]);
