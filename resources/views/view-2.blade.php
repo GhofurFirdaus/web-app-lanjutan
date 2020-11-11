@@ -1,9 +1,16 @@
-<html>
-    <head>
-        <title>Belajar Membuat Controler</title>
-    </head>
-    <body>
-        <h1>Belajar Membuat Controler</h1>
+@extends('tema.master')
+@section('title')
+Belajar Membuat Controler
+@endsection
+
+@section('content')
+<h2>
+    <div class="text-center">
+    Belajar Membuat Controler
+    </div>
+</h2>
+
+<div class="text-center">
         <p>Hallo ini adalah view controler pertama saya!</p>
-    </body>
-</html>
+</div>
+@endsection
